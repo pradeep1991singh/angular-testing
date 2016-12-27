@@ -1,23 +1,39 @@
 # angular-testing
-angular testing with jasmine
+angular unit and end-to-end testing with jasmine
 
+## Installation
+> `npm install`
+> `bower install`
 
-> npm install --save-dev jasmine  karma karma-jasmine karma-firefox-launcher 
+## Tests
+For running unit tests `jasmine`, `karma`, `karma-jasmine` needed.
+For running end-to-end tests `protractor`, `webdriver` needed.
 
-> npm install --save-dev protractor webdriver-manager
+You can install them globally or locally
+> unit tests
 
-> node node_modules/webdriver-manager/bin/webdriver-manager update
+### Install jasmine, karma, chrome-launcher (locally)
+> `npm install jasmine karma karma-jasmine karma-chrome-launcher --save-dev`
 
-> node node_modules/webdriver-manager/bin/webdriver-manager start 
+> end-to-end tests
+### Install protractor and webdriver (locally)
+> `npm install protractor webdriver-manager --save-dev`
 
-> node node_modules/angular-dev-server/index.js 
+### Run server (locally)
+> `node node_modules/webdriver-manager/bin/webdriver-manager update`
+> `node node_modules/webdriver-manager/bin/webdriver-manager start`
 
+### Run angular dev server (optionally)
+> `npm install angular-dev-server --save-dev`
+> `node node_modules/angular-dev-server/index.js`
 
-bower
+### Install protractor (globally)
+> `npm install -g protractor`
+> `webdriver-manager update`
+> `webdriver-manager start`
 
-gulp 
+## Fake server
+> `npm install express --save`
 
-npm install --save-dev gulp-webserver
-
-npm install express --save
-
+## Run sample app
+> `gulp` or `gulp serve`

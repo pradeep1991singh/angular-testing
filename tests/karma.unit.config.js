@@ -1,7 +1,7 @@
 module.exports = function(config) {
   config.set({
     frameworks: ['jasmine'],
-    browsers: ['Firefox'],
+    browsers: ['Chrome'],
     files: [
       '../bower_components/angular/angular.js',
       '../bower_components/angular-route/angular-route.js',

@@ -19,7 +19,7 @@ describe('Todo Service', function() {
 	}));
 	
 	describe('todo list', function() {
-		it('get todo list', function(done) {
+		xit('get todo list', function(done) {
 			$httpBackend.expectGET('api/todo/list');
 			TodoService.list().then(function(status) {
 				expect(status).toBe('in progress');

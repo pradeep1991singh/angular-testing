@@ -40,7 +40,7 @@ app.get('/todo/:id/status', function getTodoStatus(request, response) {
 });
 
 // start app server
-var server = app.listen(9999, function() {
+var server = app.listen(8000, function() {
 	var address = server.address();
 	console.log('api server started: http://%s:%s', address.address, address.port);
 });
