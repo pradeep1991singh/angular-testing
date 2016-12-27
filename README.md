@@ -13,6 +13,7 @@ For running unit tests `jasmine`, `karma`, `karma-jasmine` needed.
 For running end-to-end tests `protractor`, `webdriver` needed.
 
 You can install them globally or locally
+
 > unit tests
 
 ### Install jasmine, karma, chrome-launcher (locally)
@@ -21,6 +22,7 @@ $ npm install jasmine karma karma-jasmine karma-chrome-launcher --save-dev
 ```
 
 > end-to-end tests
+
 ### Install protractor and webdriver (locally)
 ```sh
 $ npm install protractor webdriver-manager --save-dev
