@@ -1,0 +1,49 @@
+{
+  "name": "todo-app",
+  "version": "1.0.0",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-inject": "^4.2.0",
+    "gulp-natural-sort": "^0.1.1",
+    "gulp-protractor": "^3.0.0",
+    "gulp-webserver": "^0.9.1",
+    "jasmine": "^2.5.2",
+    "jasmine-core": "^2.5.2",
+    "karma": "^1.3.0",
+    "karma-chrome-launcher": "^1.0.0",
+    "karma-jasmine": "^1.1.0",
+    "protractor": "^4.0.14",
+    "webdriver-manager": "^11.1.0"
+  },
+  "description": "angular testing with jasmine",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.14.0",
+    "grunt-cli": "^1.2.0",
+    "jasmine": "^2.5.2",
+    "jasmine-core": "^2.5.2",
+    "karma": "^1.3.0",
+    "karma-chrome-launcher": "^1.0.0",
+    "karma-jasmine": "^1.1.0",
+    "protractor": "^4.0.14",
+    "webdriver-manager": "^11.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pradeep1991singh/angular-testing.git"
+  },
+  "keywords": [
+    "todo",
+    "mobile",
+    "apps"
+  ],
+  "author": "pradeep",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pradeep1991singh/angular-testing/issues"
+  },
+  "homepage": "https://github.com/pradeep1991singh/angular-testing#readme"
+}

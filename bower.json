@@ -1,0 +1,27 @@
+{
+  "name": "todo-app",
+  "description": "todo application",
+  "main": "app.js",
+  "authors": [
+    "pradeep singh <pradeep1991singh@gmail.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "todo",
+    "mobile-apps"
+  ],
+  "homepage": "https://github.com/pradeep1991singh/angular-testing",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.6.1",
+    "angular-route": "^1.6.1",
+    "angular-mocks": "^1.6.1",
+    "angular-resource": "^1.6.1"
+  }
+}
